@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frecciamatt - Contatti</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+        header {
+            background-color: #0047AB;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #39FF14;
+        }
+        header p {
+            font-style: italic;
+            margin-top: 5px;
+        }
+        nav {
+            background-color: #002b66;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #39FF14;
+        }
+        main {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        h2 {
+            color: #0047AB;
+            border-bottom: 2px solid #39FF14;
+            padding-bottom: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+        }
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea, select {
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #0047AB;
+            color: #ffffff;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #39FF14;
+            color: #0047AB;
+        }
+        footer {
+            background-color: #0047AB;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        footer a {
+            color: #39FF14;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FRECCIAMATT</h1>
+        <p>"Guida intelligente, viaggia sicuro. Segui la freccia."</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="chi-siamo.html">Chi Siamo</a>
+        <a href="prodotti.html">Prodotti</a>
+        <a href="contatti.html">Contatti</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Contattaci</h2>
+            <p>Compila il modulo sottostante per richiedere supporto tecnico o per informazioni sulle soluzioni per flotte aziendali (Fleet).</p>
+            <form action="#" method="post">
+                <label for="nome">Nome e Cognome / Ragione Sociale:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tipo">Tipologia di Richiesta:</label>
+                <select id="tipo" name="tipo">
+                    <option value="supporto">Supporto Tecnico</option>
+                    <option value="fleet">Vendite Business (Fleet Service)</option>
+                    <option value="info">Informazioni Generali</option>
+                </select>
+
+                <label for="messaggio">Messaggio:</label>
+                <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+
+                <button type="submit">Invia Richiesta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Frecciamatt S.r.l. - Automotive Tech &amp; Safety</p>
+        <p>
+            Repository GitHub: <a href="[Inserisci qui il tuo link GitHub]" target="_blank">[Link Repository]</a> | 
+            Sito Pubblicato: <a href="[Inserisci qui il link di GitHub Pages]" target="_blank">[Link GitHub Pages]</a>
+        </p>
+    </footer>
+
+</body>
+</html>
